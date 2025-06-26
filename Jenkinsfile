@@ -9,12 +9,12 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'mvn clean package'
+                bat 'mvn clean package'
             }
         }
         stage('Deploy to Nexus') {
             steps {
-                sh 'mvn deploy --settings settings.xml'
+                bat 'mvn deploy --settings settings.xml'
             }
         }
     }
