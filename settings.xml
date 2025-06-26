@@ -1,0 +1,9 @@
+<settings>
+  <servers>
+    <server>
+      <id>nexus</id>
+      <username>admin</username>
+      <password>203754b3-61de-4bd3-b0d0-d23306a49780</password>
+    </server>
+  </servers>
+</settings>
