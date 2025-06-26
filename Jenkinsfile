@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven3'   // match your Maven install name
+        maven 'maven'   // match your Maven install name
         jdk 'JDK21'      // match your JDK install name exactly
     }
 
