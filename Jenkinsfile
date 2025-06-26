@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven3'
-        jdk 'JDK21'
-    }
+    maven 'maven'       // change to actual tool name from Jenkins UI
+    jdk 'jdk'           // also match the existing JDK name
+}
 
     stages {
         stage('Build') {
